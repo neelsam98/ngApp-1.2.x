@@ -1,0 +1,20 @@
+<p>This is the partial for view 2.</p>
+<p>
+  Showing of 'interpolate' filter:
+  {{ 'Current version is v%VERSION%.' | interpolate }}
+</p>
+<hr />
+
+<style>
+  .err{
+    border: 1px solid #ff0000;
+    color: #ff0000;
+  }
+</style>
+<div id="wrapper">
+  <input type="text" name="myText" onchange="myFun(this,31)" value="3" data-val="9" data-id="31"/>
+  <input type="text" name="myText" onchange="myFun(this,56)" value="7" data-val="3" data-id="56"/>
+  <input type="text" name="myText" onchange="myFun(this,38)" value="90" data-val="90" data-id="38"/>
+  <input type="text" name="myText" onchange="myFun(this,93)" value="125" data-val="101" data-id="93"/>
+</div>
+<a href="javascript:void(0);" onclick="fnGetChangeInputValue()">Get</a>
