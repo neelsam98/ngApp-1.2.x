@@ -6,7 +6,7 @@
   "repository": "https://github.com/neelsam98/ngApp-1.2.x",
   "license": "MIT",
   "dependencies": {
-    "angular": "1.2.x",
+    "angular": "1.8.x",
     "angular-loader": "1.2.x",
     "angular-route": "1.2.x",
     "html5-boilerplate": "0.0.1"
